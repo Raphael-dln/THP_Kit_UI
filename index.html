@@ -130,8 +130,44 @@
         <form action="#">
           <label for="text" class="p">Text input:</label>
           <input type="text" id="text" name="text"><br><br>
-          <label for="lname" class="p">Last name:</label>
-          <input type="text" id="lname" name="lname"><br><br>
+
+          <label for="description" class="p">Description input:</label>
+          <textarea id="description" rows="4" cols="50"></textarea><br><br>
+
+          <label for="choice">Choose an option:</label>
+          <select id="choice" class="btn btn-primary btn-sm">
+            <option value="choice_1">Choice 1</option>
+            <option value="choice_2">Choice 2</option>
+            <option value="choice_3">Choice 3</option>
+            <option value="choice_4">Choice 4</option>
+          </select><br><br>
+
+          <p>Choose one of the following:</p>
+          <label for="radio" class="radiobox">Radio input 1</label>
+          <input type="radio" id="radio" name="radio"><br>
+          <label for="radio" class="radiobox">Radio input 2</label>
+          <input type="radio" id="radio" name="radio"><br>
+          <label for="radio" class="radiobox">Radio input 3</label>
+          <input type="radio" id="radio" name="radio"><br><br>
+
+          <p>Choose one or severals:</p>
+          <div>
+            <input type="checkbox" name="checkbox1">
+            <label for="checkbox1" class="radiobox">Option 1</label>
+          </div>
+          <div>
+            <input type="checkbox" name="checkbox2">
+            <label for="checkbox2" class="radiobox">Option 2</label>
+          </div>
+          <div>
+            <input type="checkbox" name="checkbox3">
+            <label for="checkbox3" class="radiobox">Option 3</label>
+          </div>
+          <div>
+            <input type="checkbox" name="checkbox4">
+            <label for="checkbox4" class="radiobox">Option 4</label>
+          </div><br>
+
           <input type="submit" class="btn btn-primary-outline" value="Submit">
         </form>
     </div>
